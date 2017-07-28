@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## P5 Challenge
 
-You can use the [editor on GitHub](https://github.com/JoseU/p5ChallengeAccepted/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Este proyecto contiene ejemplos de stetchs de p5.js que partieron de un desafio o mano a mano de Galo Carrión y José Urgilés.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
