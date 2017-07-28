@@ -1,5 +1,8 @@
+// primer sketch
 function setup() {
-  createCanvas(720, 400);
+  var canvas = createCanvas(600, 400);
+  canvas.parent('sketchHolder01');
+
   background(51);
   noStroke();
   noLoop();
