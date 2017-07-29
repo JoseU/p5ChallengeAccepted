@@ -18,6 +18,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
 
 
+<!-- libraries to highlight javacript -->
+<link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <!--
 <script type="text/javascript" src="/_libraries/p5.js"></script>
 <script type="text/javascript" src="/_libraries/p5.js/0.5.11/addons/p5.dom.js"></script>
@@ -100,6 +104,34 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content">
       <!-- ################################################################################################ -->
           <h2>Código 1</h2>
+          <pre><code class="javascript">
+
+            // primer sketch
+            function setup() {
+              createCanvas(400, 600);
+              background(51);
+              noStroke();
+              noLoop();
+            }
+
+            function draw() {
+              drawTarget(width*0.25, height*0.4, 200, 4);
+              drawTarget(width*0.5, height*0.5, 300, 10);
+              drawTarget(width*0.75, height*0.3, 120, 6);
+            }
+
+            function drawTarget(xloc, yloc, size, num) {
+              var grayvalues = 255/num;
+              var steps = size/num;
+              for (var i = 0; i < num; i++) {
+                fill(i*grayvalues);
+                ellipse(xloc, yloc, size - i*steps, size - i*steps);
+              }
+            }
+
+
+          </code></pre>
+
 
           <p>1. Ellipses:</p>
      <div id="sketchHolder01">
