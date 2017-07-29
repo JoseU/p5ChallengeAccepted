@@ -9,9 +9,9 @@ function setup() {
 }
 
 function draw() {
-  drawTarget(winMouseX, winMouseY, 200, 4);
-  drawTarget(winMouseX*0.5, winMouseY*0.5, 300, 10);
-  drawTarget(winMouseX*0.75, winMouseY*0.3, 120, 6);
+  drawTarget(mouseX, mouseY, 200, 4);
+  drawTarget(mouseX*0.5, mouseY*0.5, 300, 10);
+  drawTarget(mouseX*0.75, mouseY*0.3, 120, 6);
 }
 
 function drawTarget(xloc, yloc, size, num) {
