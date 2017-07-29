@@ -7,16 +7,21 @@ function setup() {
 }
 
 function draw() {
-  drawTarget(width*0.25, height*0.4, 200, 4);
-  drawTarget(width*0.5, height*0.5, 300, 10);
-  drawTarget(width*0.75, height*0.3, 120, 6);
+  background(255,12);
+
+push();
+  rotate((320/mouseX)*TWO_PI);
+  drawTarget(mouseX, mouseY, 200, mouseY*4);
+  resetMatrix();
+
 }
 
 function drawTarget(xloc, yloc, size, num) {
   var grayvalues = 255/num;
   var steps = size/num;
   for (var i = 0; i < num; i++) {
-    fill(i*grayvalues);
-    ellipse(xloc, yloc, size - i*steps, size - i*steps);
+    fill(i*grayvalues, i*40);
+
+    rect(xloc, yloc, size - i*steps, size - i*steps);
   }
 }

@@ -10,7 +10,11 @@ function setup() {
 
 function draw() {
   background(255,12);
-  drawTarget(mouseX, mouseY*0.4, 200, 4);
+
+push();
+  rotate((320/mouseX)*TWO_PI);
+  drawTarget(mouseX, mouseY, 200, mouseY*4);
+  resetMatrix();
 
 }
 
