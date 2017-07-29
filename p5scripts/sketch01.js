@@ -1,16 +1,12 @@
-// primer sketch
-function setup() {
-  var canvas = createCanvas(400, 600);
-  canvas.parent('sketchHolder01');
-
-  background(51);
-  noStroke();
-  noLoop();
+var yPos = 0;
+function setup() {  // setup() runs once
+  frameRate(30);
 }
-
-function draw() {
-
-  fill(23);
-  rect(random(29), 0, 10, 400);
-
+function draw() {  // draw() loops forever, until stopped
+  background(204);
+  yPos = yPos - 1;
+  if (yPos < 0) {
+    yPos = height;
+  }
+  line(0, yPos, width, yPos);
 }

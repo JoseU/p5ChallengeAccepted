@@ -3,7 +3,7 @@ function setup() {
   createCanvas(400, 600);
   background(51);
   noStroke();
-  noLoop();
+
 }
 
 function draw() {
