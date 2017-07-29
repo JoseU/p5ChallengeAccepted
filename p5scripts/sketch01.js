@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  drawTarget(width*0.25, height*0.4, 200, 4);
+  drawTarget(mouseX, height*0.4, 200, 4);
   drawTarget(width*0.5, height*0.5, 300, 10);
   drawTarget(width*0.75, height*0.3, 120, 6);
 }
