@@ -8,26 +8,29 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 
 <head>
     <title>P5 Examples</title>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
     <!-- libraries to highlight javacript -->
     <link rel="stylesheet" href="../highlight/styles/atom-one-dark.css">
     <script src="../highlight/highlight.pack.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     <script>
-        hljs.initHighlightingOnLoad();
+        $(document).ready(function() {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
     </script>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 
@@ -151,15 +154,18 @@ Licence URI: http://www.os-templates.com/template-terms
 
 
 
-          <pre><code class="javascript">
-            <script >
-            var file = $.get( "../p5scripts/sketch01web.js", function( data ) {
-              $( "#example01" ).html( data );
-            });
-            </script>
+                    <pre><code class="javascript">
+
             <div id="example01"></div>
           </code>
         </pre>
+
+
+                    <script>
+                        var file = $.get("../p5scripts/sketch01web.js", function(data) {
+                            $("#example01").html(data);
+                        });
+                    </script>
 
 
                     <p>1. Ellipses:</p>
