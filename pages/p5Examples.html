@@ -152,24 +152,19 @@ Licence URI: http://www.os-templates.com/template-terms
 
 
           <pre><code class="javascript">
+            <script >
+            var file = $.get( "../p5scripts/sketch01web.js", function( data ) {
+              $( "#example01" ).html( data );
+            });
+            </script>
             <div id="example01"></div>
-          </code></pre>
-
-          <script >
-          var file = $.get( "../p5scripts/sketch01web.js", function( data ) {
-            $( "#example01" ).html( data );
-            //alert( "Load was performed." );
-          });
-
-          //$("#example01").append(file);
-          </script>
-
+          </code>
+        </pre>
 
 
                     <p>1. Ellipses:</p>
                     <div id="sketchHolder01">
-                        <!-- Our sketch will go here! -->
-
+                        <!-- a partir del id del vi se inster el codigo aqui -->
                         &nbsp;
                         <h2>Código 2 </h2>
                     </div>
