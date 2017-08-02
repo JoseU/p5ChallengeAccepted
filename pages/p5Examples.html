@@ -142,26 +142,31 @@ Licence URI: http://www.os-templates.com/template-terms
 
                 <!-- codigo -->
 
+                <div class="wrapper row4">
+                    <!-- <footer id="footer" class="hoc clear">
+                    </footer> -->
+                    <pre><code class="javascript">
+                                <div id="example01"></div>
+                              </code>
+
+                            </pre>
+
+                            <script>
+
+                            var file = $.get("../p5scripts/sketch01web.js", function(data) {
+                            $("#example01").html(data);
+                              });
+
+                              $(document).ready(function() {
+                                $('pre code').each(function(i, block) {
+                                  hljs.highlightBlock(block);
+                                });
+                              });
+                              </script>
+
+                </div>
 
 
-                <pre><code class="javascript">
-                            <div id="example01"></div>
-                          </code>
-
-                        </pre>
-
-                        <script>
-
-                        var file = $.get("../p5scripts/sketch01web.js", function(data) {
-                        $("#example01").html(data);
-                          });
-
-                          $(document).ready(function() {
-                            $('pre code').each(function(i, block) {
-                              hljs.highlightBlock(block);
-                            });
-                          });
-                          </script>
 
 
 
