@@ -215,7 +215,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #breadcrumb{padding:120px 0 15px;}
 #breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
-#breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
+#breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:30px;}
 #breadcrumb li a::after{top:3px; right:0; content:"\f101";}
 #breadcrumb li:last-child a{margin:0; padding:0;}
 #breadcrumb li:last-child a::after{display:none;}
@@ -286,7 +286,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#CBCBCB; background-color:#2B2F32;}
+body{color:#fffafa80; background-color:#2B2F32;}
 a{color:#74D3D3;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -361,7 +361,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 #mainav form select{color:#FFFFFF; background-color:#2B2F32; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#74D3D3;}
+#breadcrumb li:last-child a{color:#FFFFFF}
+#breadcrumb li:last-child a:hover{color:#FFB099;}
+
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
 .container .sidebar nav a:hover{color:#74D3D3;}
@@ -433,7 +435,7 @@ table a, #comments a{background-color:inherit;}
 	#pageintro{padding:120px 0;}
 	#pageintro article{max-width:none;}
 	#pageintro .heading{font-size:2.2rem;}
-	
+
 	.sectiontitle, .testimonials article{text-align:left;}
 	.testimonials article{max-width:none;}
 
