@@ -13,10 +13,25 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<script src="libraries/p5.js"></script>
-<script src="libraries/p5.min.js"></script>
+<script src="../libraries/jquery-3.2.1.min.js"></script>
+<!-- JAVASCRIPTS -->
+<!-- <script srcs="../layout/scripts/jquery.min.js"></script> -->
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
 
-</script>
+<!-- libraries to highlight javacript -->
+
+<script src="../highlight/highlight.pack.js"></script>
+<script>
+$(document).ready(function() {
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+});
+    </script>
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
