@@ -4,8 +4,6 @@ function setup() {
   background(51);
   noStroke();
 
-}
-
 function draw() {
   drawTarget(mouseX, mouseY, 200, 4);
   drawTarget(mouseX*0.5, mouseY*0.5, 300, 10);
