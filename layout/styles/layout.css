@@ -29,6 +29,7 @@ File: Layout CSS
 #header p{font-size:.9rem; text-transform:lowercase;}
 
 
+
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:200px 0;}
@@ -38,6 +39,7 @@ File: Layout CSS
 #pageintro .heading{margin-bottom:20px; font-size:6rem;}
 #pageintro p{margin:0; text-transform:uppercase; font-size:1.4rem;}
 #pageintro footer{margin-top:80px;}
+#remix {font-size:3rem; color: #989393;}
 
 
 /* Content Area
