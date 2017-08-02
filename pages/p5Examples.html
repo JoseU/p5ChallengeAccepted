@@ -26,12 +26,12 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <script src="../highlight/highlight.pack.js"></script>
     <script>
-    $(document).ready(function() {
-      $('pre code').each(function(i, block) {
-        hljs.highlightBlock(block);
-      });
-    });
-        </script>
+        $(document).ready(function() {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
 
 
 
@@ -142,7 +142,7 @@ Licence URI: http://www.os-templates.com/template-terms
 
                 <!-- codigo -->
 
-                <div class="wrapper row4">
+                <div class="wrapper row3b">
                     <!-- <footer id="footer" class="hoc clear">
                     </footer> -->
                     <pre><code class="javascript">
@@ -151,18 +151,17 @@ Licence URI: http://www.os-templates.com/template-terms
 
                             </pre>
 
-                            <script>
-
-                            var file = $.get("../p5scripts/sketch01web.js", function(data) {
+                    <script>
+                        var file = $.get("../p5scripts/sketch01web.js", function(data) {
                             $("#example01").html(data);
-                              });
+                        });
 
-                              $(document).ready(function() {
-                                $('pre code').each(function(i, block) {
-                                  hljs.highlightBlock(block);
-                                });
-                              });
-                              </script>
+                        $(document).ready(function() {
+                            $('pre code').each(function(i, block) {
+                                hljs.highlightBlock(block);
+                            });
+                        });
+                    </script>
 
                 </div>
 
