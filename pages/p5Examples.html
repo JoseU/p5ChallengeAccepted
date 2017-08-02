@@ -127,7 +127,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <main class="hoc container clear">
             <!-- main body -->
             <!-- ################################################################################################ -->
-            <div class="content">
+            <div class="content 2">
                 <!-- ################################################################################################ -->
                 <p>1. Ellipses:</p>
                 <div id="sketchHolder01">
@@ -152,10 +152,18 @@ Licence URI: http://www.os-templates.com/template-terms
 
                         <script>
 
-                            var file = $.get("../p5scripts/sketch01web.js", function(data) {
-                                $("#example01").html(data);
+                        var file = $.get("../p5scripts/sketch01web.js", function(data) {
+                        $("#example01").html(data);
+                          });
+
+                          $(document).ready(function() {
+                            $('pre code').each(function(i, block) {
+                              hljs.highlightBlock(block);
                             });
-                        </script>
+                          });
+                          </script>
+
+
 
 
                 <!-- ################################################################################################ -->

@@ -52,6 +52,7 @@ File: Layout CSS
 
 /* Content */
 .container .content{}
+	.container .content2{}
 
 .sectiontitle{display:block; margin-bottom:80px; text-align:center;}
 .sectiontitle *{margin:0;}
