@@ -11,6 +11,9 @@ File: Layout CSS
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Source+Code+Pro');
+
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1, .row1 a{}
@@ -456,4 +459,13 @@ table a, #comments a{background-color:inherit;}
 
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
+}
+
+
+/* pre code style
+_____ */
+
+pre > code {
+font-family: "Source Code Pro", monospace;
+
 }

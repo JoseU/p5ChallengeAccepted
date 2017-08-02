@@ -8,6 +8,9 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Framework CSS
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Source+Code+Pro');
+
 html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
@@ -52,10 +55,11 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgover:hover::before, .imgover:hover::after{opacity:1;}
 
 
-/* Fonts
+/* Fonts font-family: 'Source Code Pro', monospace;
+
 --------------------------------------------------------------------------------------------------------------- */
-body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
-h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
+body, input, textarea, select{font-family:'Josefin Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6, .heading{font-family:'Abril Fatface', cursive;}
 
 
 /* Forms
