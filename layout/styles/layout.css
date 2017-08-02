@@ -53,7 +53,7 @@ File: Layout CSS
 
 /* Content */
 .container .content{}
-	.container .content2{}
+
 
 .sectiontitle{display:block; margin-bottom:80px; text-align:center;}
 .sectiontitle *{margin:0;}
@@ -371,7 +371,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{color:#FFFFFF}
-#breadcrumb li:last-child a:hover{color:#FFB099;}
+#breadcrumb li:last-child a:hover{color:#74D3D3;}
 
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}

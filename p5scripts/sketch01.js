@@ -1,4 +1,3 @@
-// primer sketch
 function setup() {
   var canvas = createCanvas(550, 350);
   canvas.parent('sketchHolder01');

@@ -1,4 +1,3 @@
-// primer sketch
 function setup() {
  createCanvas(550, 350);
   background(51);
