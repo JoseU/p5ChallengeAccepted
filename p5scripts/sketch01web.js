@@ -1,6 +1,6 @@
 // primer sketch
 function setup() {
-  createCanvas(400, 600);
+ createCanvas(550, 350);
   background(51);
   noStroke();
 
