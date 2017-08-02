@@ -23,13 +23,7 @@ code {
     height: 45em;
 }
 
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: #3b3b3b;
-  background: #e8e8e8;
-}
+
 
 .hljs-comment,
 .hljs-quote {
@@ -89,6 +83,14 @@ code {
 .hljs-title {
   color: #31B0BD;
 
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #3b3b3b;
+  background: #e8e8e8;
 }
 
 .hljs-emphasis {
