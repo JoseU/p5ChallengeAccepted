@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /*
 Template Name: Jovaphile
@@ -10,7 +11,7 @@ File: Layout CSS
 
 @import url("font-awesome.min.css");
 @import url("framework.css");
-
+@import url("../../highlight/styles/remix.css");
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Source+Code+Pro');
 
 
