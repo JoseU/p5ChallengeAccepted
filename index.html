@@ -24,13 +24,6 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- libraries to highlight javacript -->
 
 <script src="../highlight/highlight.pack.js"></script>
-<script>
-$(document).ready(function() {
-  $('pre code').each(function(i, block) {
-    hljs.highlightBlock(block);
-  });
-});
-    </script>
 
 </head>
 <body id="top">
@@ -521,5 +514,12 @@ $(document).ready(function() {
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script>
+    $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
+</script>
 </body>
 </html>
