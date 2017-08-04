@@ -1,7 +1,6 @@
 function setup() {
- createCanvas(550, 350);
-  background(51);
-  noStroke();
+  createCanvas(550, 550);
+  smooth();
 }
 
 function draw() {

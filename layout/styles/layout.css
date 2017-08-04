@@ -472,7 +472,7 @@ _____ */
 pre > code {
 font-family: "Source Code Pro", monospace;
 display: inline-block;
-width: 40em; /* Whatever. The <code>'s width will change */
-height: 45em;
+width: 39.3em; /* Whatever. The <code>'s width will change */
+height: 39.3em;
 
 }

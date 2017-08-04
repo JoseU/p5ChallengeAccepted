@@ -17,13 +17,6 @@ hue-6:   #d19a66
 hue-6-2: #e6c07b
 
 */
-code {
-    display: inline-block;
-    width: 40em; /* Whatever. The <code>'s width will change */
-    height: 45em;
-}
-
-
 
 .hljs-comment,
 .hljs-quote {
