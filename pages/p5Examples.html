@@ -29,6 +29,13 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <!-- <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script> -->
     <script src="../highlight/highlight.pack.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
 
 
 </head>
@@ -139,13 +146,6 @@ Licence URI: http://www.os-templates.com/template-terms
         </main>
     </div>
 
-    <script>
-        $(document).ready(function() {
-            $('pre code').each(function(i, block) {
-                hljs.highlightBlock(block);
-            });
-        });
-    </script>
 
     <div class="wrapper row5">
         <div id="copyright" class="hoc clear">
