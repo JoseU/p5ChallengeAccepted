@@ -28,7 +28,7 @@ function draw() {
 
     rectMode(CENTER);
     noFill();
-    background(255);
+    background(color("#e8e8e8"));
 
     count = mouseX / 20 + 5;
     var para = mouseY / height - 0.5;
