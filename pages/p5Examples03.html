@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+Template Name: Jovaphile
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+<head>
+    <title>P5 Example 03</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
+
+    <script src="../p5scripts/sketch03.js"></script>
+
+
+    <script src="../libraries/jquery-3.2.1.min.js"></script>
+    <!-- JAVASCRIPTS -->
+    <!-- <script srcs="../layout/scripts/jquery.min.js"></script> -->
+    <script src="../layout/scripts/jquery.backtotop.js"></script>
+    <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+
+    <!-- libraries to highlight javacript -->
+
+    <!-- <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script> -->
+    <script src="../highlight/highlight.pack.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+
+
+</head>
+
+<body id="top">
+
+
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row0">
+        <nav id="mainav" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <ul class="clear">
+                <li>
+                    <a href="../index.html"></a>
+                </li>
+                <i class="fa fa-chevron-up"></i>
+
+                <li class="active"><a class="drop" href="#">Pages</a>
+                    <ul>
+                        <li class="active"><a href="p5Examples.html">p5Examples</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <!-- <li><a href="sidebar-left.html">Sidebar Left</a></li>
+                        <li><a href="sidebar-right.html">Sidebar Right</a></li>
+                        <li><a href="basic-grid.html">Basic Grid</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li><a class="drop" href="#">Dropdown</a>
+                    <ul>
+                        <li><a href="#">Level 2</a></li>
+                        <li><a class="drop" href="#">Level 2 + Drop</a>
+                            <ul>
+                                <li><a href="#">Level 3</a></li>
+                                <li><a href="#">Level 3</a></li>
+                                <li><a href="#">Level 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Level 2</a></li>
+                    </ul>
+                </li> -->
+                <!-- <li><a href="#">Link Text</a></li>
+                <li><a href="#">Link Text</a></li>
+                <li><a href="#">Link Text</a></li>
+                <li><a href="#">Long Link Text</a></li> -->
+            </ul>
+            <!-- ################################################################################################ -->
+        </nav>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <h1><a href="../index.html">P5 Remix</a></h1>
+            <p>formas geométricas</p>
+            <!-- ################################################################################################ -->
+        </header>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="wrapper bgded light" style="background-image:url('../images/demo/backgrounds/01.png');">
+        <div id="breadcrumb" class="hoc clear">
+            <!-- ################################################################################################ -->
+            <ul>
+                <li><a href="../index.html"><i class="fa fa-home"></i></a></li>
+
+            </ul>
+            <!-- ############################################################################################## -->
+        </div>
+    </div>
+    <!-- ################################################################################################ -->
+
+    <div class="wrapper row3">
+        <main class="hoc container clear">
+            <!-- main body -->
+            <!-- ################################################################################################ -->
+            <div class="content">
+                <!-- ################################################################################################ -->
+                <p>Grid:</p>
+                <div id="sketchHolder03">
+                    <!-- a partir del id del vi se inster el codigo aqui -->
+
+                </div>
+
+
+                <!-- ################################################################################################
+            </div>
+        </main>
+
+    </div>
+
+    <div class="wrapper row3b">
+        <main class="hoc container clear">
+          main body -->
+
+                <div class="content">
+                    <p>Código:</p>
+                    <script>
+                        var file = $.get("../p5scripts/sketch03web.js", function(data) {
+                            $("#example01").html(data);
+                        });
+                    </script>
+                    <pre><code class="javascript"> <div id="example01"></div> </code></pre>
+                </div>
+        </main>
+        </div>
+
+        <div class="wrapper row2">
+            <article class="hoc container cta clear">
+                <!-- ################################################################################################ -->
+                <a class="btn" href="proyectos.html">Proyectos</a>
+                <!-- ################################################################################################ -->
+            </article>
+        </div>
+
+
+        <div class="wrapper row5">
+            <div id="copyright" class="hoc clear">
+                <!-- ################################################################################################ -->
+                <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Galo Carrión - José Urgilés</a></p>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+</body>
+
+</html>
