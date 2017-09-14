@@ -16,8 +16,7 @@ var count = 0;
 var drawMode = 3;
 
 function setup() {
-    var canvas = createCanvas(550, 550);
-    canvas.parent('sketchHolder03');
+    canvas = createCanvas(550, 550);
     smooth();
 
 }
@@ -28,14 +27,8 @@ function draw() {
   var colours = [color(68, 165, 237, alfa), color(86, 182, 194, alfa), color(36, 129, 138, alfa), color(191, 138, 207, alfa)];
 
     rectMode(CENTER);
-    smooth();
-    //noStroke();
-
     noFill();
     background(255);
-    // stroke(22);
-    // fill(100,200);
-    // rect(20,20,50,50);
 
     count = mouseX / 20 + 5;
     var para = mouseY / height - 0.5;
@@ -62,10 +55,11 @@ function draw() {
 
                 case 3:
                     for (var i = 0; i <= count; i++) {
-                      line(0, para*tileHeight, tileWidth/2, (i/count-0.5)*tileHeight);
-                        line(0, para*tileHeight, -tileWidth/2, (i/count-0.5)*tileHeight);
-                        line(0, para*tileHeight, (i/count-0.5)*tileWidth, tileHeight/2);
-                        line(0, para*tileHeight, (i/count-0.5)*tileWidth, -tileHeight/2);
+
+                      strokeWeight(para*2.66332);
+                      stroke(colours[i%3]);
+                      rotate(TWO_PI/para);
+                      rect(0, para*tileHeight, (i/count)*tileWidth, para*tileHeight);
                     }
                     break;
             }
