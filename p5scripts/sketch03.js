@@ -64,7 +64,7 @@ function draw() {
                     for (var i = 0; i <= count; i++) {
 
                       strokeWeight(para*2.66332);
-                  
+
                       noFill();
                       stroke(colours[i%3]);
 
